@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+
+
+}
+html{
+
+	scroll-behavior: smooth;
+}
+
+.logo
+{
+
+	width: 22%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.logo img
+{
+  width: 30%
+   border:2px solid red;
+   border-radius: 5px;
+ 
+}
+
+.navbar
+{
+display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+
+
+  
+}
+
+
+
+.nav-list 
+{
+   width: 65%;
+   
+   display: flex;
+   /*justify-content: center;*/
+   align-items: center;
+
+}
+
+.nav-list  li
+{
+     list-style: none;
+        padding: 26px 30px;
+
+
+}
+
+.nav-list li a
+{
+      text-decoration: none;
+      color: white;	
+      font-size: 20px;
+      font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+.nav-list li a:hover
+{
+      text-decoration: none;
+      color: grey;	
+
+
+}
+
+
+.rightnav
+{
+width: 35%;
+    text-align: right;
+    padding: 0 30px;
+
+}
+
+#search
+{
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 10px;
+  border:2px solid grey;
+
+}
+.backgroud
+{
+ background: rgba(0,0,0,0.7)url('bg.jpg.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-blend-mode: darken;
+
+
+}
+
+
+.main-box
+{
+
+	display: flex;
+	justify-content:  center;
+	align-items: center;
+	color: white;
+	    max-width: 50%;
+	    margin: auto;
+	       height: 70%; 
+	       font-family: 'Ubuntu', sans-serif;
+}
+
+
+.firstsection
+{
+    height: 95vh;
+
+}
+.firsthalf
+{
+
+ width: 1000%;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondhalf
+{
+
+  width: 30%;
+}
+
+ img.ig {
+   padding: 4px 0;
+    border: 5px solid red;
+    border-radius: 200px;
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+
+
+
+.big-text
+{
+
+  font-size: 41px;
+
+
+}
+
+.smal-text  
+{
+
+  font-size: 18px;
+
+}
+.btn
+{
+
+ padding: 8px 20px;
+    margin: 7px 3px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background:none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sm
+{
+   padding: 6px 10px;
+   vertical-align: middle;
+   font-size: 16px;
+
+}
+.resright
+{
+  width: 100% ;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+  margin: auto;
+  max-width: 80%;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 50px;
+
+
+}
+.pares
+{
+
+	padding: 0px 65px;
+}
+
+.resleft
+{
+
+
+ width: 100% ;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+ 
+  margin: auto;
+  max-width: 80%;
+  font-family: 'Ubuntu', sans-serif;
+    padding-top: 50px;
+   
+   
+
+
+}
+.left
+{
+  flex-direction: row-reverse;
+
+}
+.fluid
+{
+
+  border:5px solid red;
+ border-radius: 20px;
+ width: 200px;
+}
+.sectiontg
+
+{
+
+	padding: 16px 0px;
+}
+
+.Contact
+{
+     height: 83vh;
+
+background-color: #f6f5f4;
+
+}
+.us
+{
+
+  text-align: center;
+  padding: 30px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 35px;
+
+}
+.form
+{
+max-width: 400px;
+  margin: 12px auto;
+
+}
+.form input
+{
+
+	width: 100%;
+	font-size: 19px;
+	border:2px solid grey;
+	border-radius: 10px 
+
+	 
+
+}
+
+
+input 
+{
+
+	margin: 14px 0px;
+	padding: 5px 3px;
+}
+.dark
+{
+
+	
+	   border: 3px solid black;
+    border-radius: 5px;
+
+	color: black;
+}
+.textarea
+{
+  width: 100%;
+	font-size: 19px;
+	border:2px solid grey;
+	border-radius: 10px 
+
+
+	margin: 14px 0px;
+	padding: 5px 3px;
+
+}
+
+.text-footer
+{
+
+  
+  text-align: center;
+  padding: 10px 0px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;align-items: center;
+	
+}
+
+.burger
+{
+  position: absolute;
+  cursor: pointer;
+  right: 5px;
+  top: 15px;
+  display: none;
+
+
+}
+.line
+{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+
+}
+
+@media only screen and (max-width: 1013px)
+{
+
+    .nav-list
+    {
+
+    	flex-direction: column;
+    }
+    .rightnav
+    {
+
+    	flex-direction: column;
+    	text-align: center;
+    } 
+
+    .navbar
+    {
+
+     flex-direction: column;
+     transition: all 1.10s ease-out;
+     height: 500px;
+
+    }
+
+    .burger
+    {
+
+    	display: block;
+    }
+ 
+  .h-nav
+  {
+
+  	    height: 50px;
+  }
+
+  .v-vis
+  {
+
+  	opacity: 0;
+  }
+  .firstsection {
+    height: auto;
+        padding-top: 20px;
+}
+   .main-box
+   {
+       flex-direction: column-reverse;
+      max-width: 100%;
+          width: 8%;
+
+   }
+   .sr
+   {
+
+   	text-align: center;
+   }
+   .srrrr
+   {
+
+     flex:right;
+
+   }
+   img.ig
+   {
+
+      width: 200%;
+    display: flex;
+    margin: auto;
+
+   }
+    .btn
+    {
+    
+    font-size: 10px;
+
+
+    }
+
+ .form {
+    max-width: 200px;
+ 
+}
+  .resright{
+
+  	flex-direction: column-reverse;
+  }
+     .smal-text 
+     {
+           text-align: center;
+     	}  
+   	.big-text 
+   	{
+
+             text-align: center;
+   	}
+
+
+     .btn
+     {
+             text-align: center;
+
+     }
+
+     .pares{
+
+
+     	padding: 0px;
+     }
+
+} 
+
+@media only screen and (max-width: 600px)
+{
+
+    .search
+    {
+            
+     width: 100%;
+   
+    }
+
+}
